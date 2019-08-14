@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Bill to:</strong>
+  <%= @create_news.bill_to %>
+</p>
+
+<p>
+  <strong>Contract num:</strong>
+  <%= @create_news.contract_num %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @create_news.description %>
+</p>
+
+<%= link_to 'Edit', edit_create_news_path(@create_news) %> |
+<%= link_to 'Back', create_news_path %>
