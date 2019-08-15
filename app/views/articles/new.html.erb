@@ -1,5 +1,33 @@
-
 <h1>New Contract</h1>
+
+<div class="row">
+    <div class="col-md-6">
+      <input type="text" class="form-control" placeholder="Bill To">
+      <input type="text" class="form-control" placeholder="Ship To">
+    </div>
+    <div class="col-md-6">
+      <input type="text" class="form-control" placeholder="Contract #">
+      <input type="text" class="form-control" placeholder="Date Out">
+      <input type="text" class="form-control" placeholder="Time Out">
+      <input type="text" class="form-control" placeholder="Off Rent">
+      <input type="text" class="form-control" placeholder="Ordered By">
+      <input type="text" class="form-control" placeholder="RL">
+      <input type="text" class="form-control" placeholder="PO#">
+      <label for="inputState">Terms</label>
+      <select id="inputState" class="form-control">
+        <option selected>Net 30 days</option>
+        <option>...</option>
+      </select>
+      <input type="text" class="form-control" placeholder="HST #">
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <input type="textarea" class="form-control" placeholder="Notes">
+      <input type="text" class="form-control" placeholder="Site Contact">
+      </div>
+  </div>
  
 <%= render 'form' %>
  

@@ -1,9 +1,8 @@
 
 <p>
-  <strong>Rental Contract</strong>
+  <strong>New Rental Contract</strong>
   <div>Bill to: 
   <%= @article.title %>
-  <%= @article.contract_no %>
   </div>
 </p>
  
@@ -14,7 +13,7 @@
  
 <h2>Comments</h2>
 <%= render @article.comments %>
- 
+  
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
  
